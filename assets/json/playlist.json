@@ -1,0 +1,31 @@
+{
+  "playlist":[
+    {
+      "id": "11GZ3J5",
+      "category": 1,
+      "title": "bitdash Test Video",
+      "outline": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+      "artist": "bitdash",
+      "source": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
+      "image": "",
+    },
+    {
+      "id": "22EK83J",
+      "category": 1,
+      "title": "telequebec Test Video",
+      "outline": "Aenean commodo ligula eget dolor aenean massa",
+      "artist": "telequebec",
+      "source": "https://mnmedias.api.telequebec.tv/m3u8/29880.m3u8",
+      "image": "",
+    },
+    {
+      "id": "33OEJ7H",
+      "category": 2,
+      "title": "Apple Test Video (Music)",
+      "outline": "Donec pede justo fringilla vel aliquet nec vulputate eget arcu",
+      "artist": "Apple Developer",
+      "source": "http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8",
+      "image": "",
+    }
+  ]
+}
