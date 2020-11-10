@@ -15,10 +15,10 @@ class Content {
       id: json['id'] as String,
       category: ContentCategory.values[json['category'] as int],
       title: json['title'] as String,
-      outline: json['title'] as String,
-      artist: json['title'] as String,
-      source: json['title'] as String,
-      image: json['title'] as String,
+      outline: json['outline'] as String,
+      artist: json['artist'] as String,
+      source: json['source'] as String,
+      image: json['image'] as String,
     );
   }
 

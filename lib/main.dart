@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'views/play_list.dart';
+import 'views/screens/play_list.dart';
+import 'views/screens/player_music.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       ),
       darkTheme: ThemeData(brightness: Brightness.dark),
       routes: <String, WidgetBuilder>{
-        '/': (_) => new PlayList(),
+        '/': (_) => PlayList(),
+        '/music': (_) => PlayerMusic(),
       },
     );
   }

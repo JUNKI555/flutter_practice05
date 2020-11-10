@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../core/app_code.dart';
-import '../entities/content.dart';
-import '../view_models/list_view_model.dart';
+import '../../core/app_code.dart';
+import '../../entities/content.dart';
+import '../../view_models/list_view_model.dart';
 
 class PlayList extends StatelessWidget {
   @override
@@ -11,7 +11,7 @@ class PlayList extends StatelessWidget {
         title: const Text('List View'),
       ),
       body: FutureBuilder<List<Content>>(
-        future: new ListViewModel().fetchContents(),
+        future: ListViewModel().fetchContents(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const CircularProgressIndicator();
@@ -31,7 +31,15 @@ class PlayList extends StatelessWidget {
                         : const Icon(Icons.music_video, color: Colors.red),
                     title: Text(contents[index].title),
                     onTap: () {
-                      // do nothing
+                      final content = contents[index];
+                      switch (contents[index].category) {
+                        case ContentCategory.video:
+                          break;
+                        case ContentCategory.music:
+                          Navigator.of(context)
+                              .pushNamed('/music', arguments: content);
+                          break;
+                      }
                     },
                   );
                   return Container(color: Colors.white, child: listTile);
@@ -42,7 +50,7 @@ class PlayList extends StatelessWidget {
                   );
                 },
               ),
-              onRefresh: new ListViewModel().fetchContents,
+              onRefresh: ListViewModel().fetchContents,
             ),
           );
         },
