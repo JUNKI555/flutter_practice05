@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../core/app_code.dart';
 import '../entities/content.dart';
 import '../view_models/list_view_model.dart';
 
@@ -25,7 +26,9 @@ class PlayList extends StatelessWidget {
                 itemCount: contents.length,
                 itemBuilder: (context, index) {
                   final listTile = ListTile(
-                    leading: const Icon(Icons.photo_filter, color: Colors.blue),
+                    leading: contents[index].category == ContentCategory.video
+                        ? const Icon(Icons.ondemand_video, color: Colors.red)
+                        : const Icon(Icons.music_video, color: Colors.red),
                     title: Text(contents[index].title),
                     onTap: () {
                       // do nothing

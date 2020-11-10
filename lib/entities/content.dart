@@ -1,3 +1,5 @@
+import '../core/app_code.dart';
+
 class Content {
   Content(
       {this.id,
@@ -11,7 +13,7 @@ class Content {
   factory Content.fromJson(Map<String, dynamic> json) {
     return Content(
       id: json['id'] as String,
-      category: json['category'] as int,
+      category: ContentCategory.values[json['category'] as int],
       title: json['title'] as String,
       outline: json['title'] as String,
       artist: json['title'] as String,
@@ -21,7 +23,7 @@ class Content {
   }
 
   final String id;
-  final int category;
+  final ContentCategory category;
   final String title;
   final String outline;
   final String artist;
