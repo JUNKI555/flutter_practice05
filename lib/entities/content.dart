@@ -8,7 +8,7 @@ class Content {
       this.source,
       this.image});
 
-  factory Content.fromJson(Map<dynamic, dynamic> json) {
+  factory Content.fromJson(Map<String, dynamic> json) {
     return Content(
       id: json['id'] as String,
       category: json['category'] as int,
