@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'views/screens/play_list.dart';
 import 'views/screens/player_music.dart';
+import 'views/screens/player_video.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         '/': (_) => PlayList(),
         '/music': (_) => PlayerMusic(),
+        '/video': (_) => PlayerVideo(),
       },
     );
   }

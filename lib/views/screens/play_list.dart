@@ -34,6 +34,8 @@ class PlayList extends StatelessWidget {
                       final content = contents[index];
                       switch (contents[index].category) {
                         case ContentCategory.video:
+                          Navigator.of(context)
+                              .pushNamed('/video', arguments: content);
                           break;
                         case ContentCategory.music:
                           Navigator.of(context)
