@@ -2,7 +2,7 @@
   "playlist":[
     {
       "id": "11GZ3J5",
-      "category": 1,
+      "category": 0,
       "title": "bitdash Test Video",
       "outline": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
       "artist": "bitdash",
@@ -11,7 +11,7 @@
     },
     {
       "id": "22EK83J",
-      "category": 1,
+      "category": 0,
       "title": "telequebec Test Video",
       "outline": "Aenean commodo ligula eget dolor aenean massa",
       "artist": "telequebec",
@@ -20,7 +20,7 @@
     },
     {
       "id": "33OEJ7H",
-      "category": 2,
+      "category": 1,
       "title": "Apple Test Video (Music)",
       "outline": "Donec pede justo fringilla vel aliquet nec vulputate eget arcu",
       "artist": "Apple Developer",
