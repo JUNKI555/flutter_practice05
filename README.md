@@ -52,3 +52,9 @@ Not actually used in this project.
 
 - FlutterでAppBarの非表示をアニメーション化する方法は？ | Fixes.pub
   - https://www.fixes.pub/program/2260.html
+
+## Application Images
+![image1.png](https://github.com/JUNKI555/flutter_practice05/blob/main/image1.png)
+![image2.png](https://github.com/JUNKI555/flutter_practice05/blob/main/image2.png)
+![image3.png](https://github.com/JUNKI555/flutter_practice05/blob/main/image3.png)
+![image4.png](https://github.com/JUNKI555/flutter_practice05/blob/main/image4.png)
