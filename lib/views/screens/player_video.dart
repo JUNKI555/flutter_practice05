@@ -9,7 +9,7 @@ class PlayerVideo extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Music Player'),
+        title: const Text('Video Player'),
       ),
       body: Center(
         child: VideoPlayerWidget(

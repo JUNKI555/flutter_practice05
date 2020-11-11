@@ -1,4 +1,4 @@
-# Flutter Practice 04
+# Flutter Practice 05
 
 - Movie / Music Player Practice
 - List view and Player view
@@ -32,3 +32,23 @@
     - https://medium.com/@eggzotic/stateless-flutter-2e14b6ae30b5
 - Unity：動画ストリームHLS (.m3u8)のサンプル(sample) | Unity+AssetStoreおすすめ情報
   - https://www.fast-system.jp/unity-movie-hls-m3u8-sample/
+
+- Flutterの状態管理いろいろ比較 〜グローバル変数StateからBLoCパターンまで〜 | Qiita
+  - https://qiita.com/agajo/items/50d5d7497d28730de1d3
+- How to change screen orientation in flutter ? | Coding Ninja
+  - https://codingninja.info/change-screen-orientation-in-flutter.html
+- 【Flutter】画面を縦／横に固定する方法 | ryohtarot | Gist
+  - https://gist.github.com/ryohtarot/e34b7c17b207e527d9dcfb1f0e9d6ba0
+- Flutter: How to set and lock screen orientation on-demand | Stack Overflow
+  - https://stackoverflow.com/questions/50322054/flutter-how-to-set-and-lock-screen-orientation-on-demand
+- SystemChrome class | Flutter
+  - https://api.flutter.dev/flutter/services/SystemChrome-class.html
+- SizedBox class | Flutter
+  - https://api.flutter.dev/flutter/widgets/SizedBox-class.html
+
+## Other Reference
+
+Not actually used in this project.
+
+- FlutterでAppBarの非表示をアニメーション化する方法は？ | Fixes.pub
+  - https://www.fixes.pub/program/2260.html
